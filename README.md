@@ -45,4 +45,4 @@ Copilot helped generate exploratory questions and the initial POM/test structure
 See `ASSESSMENT.md`; defect evidence is in `evidence/`.
 
 ## GitHub submission
-Not published from this environment: Git/GitHub CLI are unavailable and GitHub is signed out in the browser. After authenticating and creating a public repository, initialize Git, add this project, and push the `main` branch.
+Published as a public repository: https://github.com/mrunal1997/tentwenty_assessment

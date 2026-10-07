@@ -99,7 +99,7 @@ The standard-user purchase path and sort order behaved as expected. Repeated ima
 - **Framework/POM:** Playwright Test + TypeScript; `LoginPage`, `ProductsPage`, `CartPage`, and `CheckoutPage` hold locators/actions, while the test owns business assertions.
 - **AI assistance and corrections:** Copilot proposed the initial POM and accessible role/name locators. I checked them against the live UI and ran the test. The selected product is scoped to its inventory item; the test asserts the exact cart count, line item, item price, tax, total, completion heading, and empty cart. No arbitrary waits or unsupported assertions were retained.
 - **Validation performed:** `npm install` succeeded; `npm test` passed on the first run. A final rerun is recorded after the last edit.
-- **Limitations:** One browser project and one happy-path automation test; exploratory checks covered only the documented flows/accounts. The required public GitHub repository was not created: Git/GitHub CLI are unavailable and the browser session is signed out. The files are prepared locally, but publication remains outstanding.
+- **Limitations:** One browser project and one happy-path automation test; exploratory checks covered only the documented flows/accounts. The assessment is published in the public repository: https://github.com/mrunal1997/tentwenty_assessment.
 
 ## Task D — AI-Driven QA Strategy
 
